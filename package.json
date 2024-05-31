@@ -4,7 +4,11 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
+<<<<<<< HEAD
     "dev": "nodemon ./bin/www --trace-warnings --trace-sync-io"
+=======
+    "dev": "nodemon ./bin/www --trace-warnings -–trace-sync-io"
+>>>>>>> 656210592c87ec16e85ca49cb86f6eb8692e2254
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -18,6 +22,10 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
+<<<<<<< HEAD
   },
   "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+=======
+  }
+>>>>>>> 656210592c87ec16e85ca49cb86f6eb8692e2254
 }
